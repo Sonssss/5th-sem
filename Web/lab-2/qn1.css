@@ -1,0 +1,23 @@
+h4{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+.one{
+    display: inline-block;
+}
+.two{
+    margin-left: 2rem;
+}
+.three{
+    margin-left: 2rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+.four{
+    margin-left: 2rem;
+}
