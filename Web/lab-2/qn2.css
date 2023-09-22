@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+.heading{
+    color: rgb(165, 44, 44);
+    text-align: center;
+    padding-top: 3rem;
+}
+ body{
+    background-image:url(menu.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ /* h1{
+    margin-bottom: 10vh;
+ } */
+ main{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(200, 46, 46);
+
+ }
+ .left li{
+    list-style: none;
+    padding: 0.5rem;
+ }
+ .right li{
+    list-style: none;
+    padding: 0.5rem;
+ }
+ .left li,.right li{
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+
+

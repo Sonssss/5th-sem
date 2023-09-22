@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left li{
+    list-style: none;
+}
+.right li{
+    list-style: none;
+}
+.left li,.right li{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left li::before{
+    content: '';
+    border: 3px solid white;
+}
+
+
+.right li::before{
+    content: '';
+    border: 3px solid rgb(195, 51, 51);
+}
+
+
+
+
+

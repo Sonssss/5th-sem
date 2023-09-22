@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    justify-content: center;   
+    border: 2px solid black;
+    flex-direction: column;
+}
+.header_h2
+{
+    background-color: gray;
+}
+.left_description{
+    padding-left: 5rem;
+}
+.header_main_div{
+    display: flex;
+    justify-content: space-between;
+}
